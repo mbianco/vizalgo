@@ -4,3 +4,5 @@ media/jupyter
 media/Tex
 media/texts
 media/videos
+.DS_*
+.ve/
