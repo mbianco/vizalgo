@@ -6,3 +6,5 @@ media/texts
 media/videos
 .DS_*
 .ve/
+__pycache__
+
