@@ -7,4 +7,5 @@ media/videos
 .DS_*
 .ve/
 __pycache__
+*egg-info
 
