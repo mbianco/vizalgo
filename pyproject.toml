@@ -1,0 +1,18 @@
+[project]
+name = "vizalgomain"
+version = "0.1.0"
+description = "Visualization of Algorithms"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "manim>=0.19.0",
+    "networkx>=3.4.2",
+    "vizutils",
+]
+
+[tool.uv.workspace]
+members = ["vizutils"]
+
+[tool.uv.sources]
+vizutils = { workspace = true }
